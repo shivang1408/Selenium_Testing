@@ -26,7 +26,7 @@ public class Test {
 		System.out.println(sClass);
 
 		// Click on "Link Text" link
-		driver.findElement(By.linkText("Link Test")).click();
-		System.out.println("Link Test Pass");
+//		driver.findElement(By.linkText("Link Test")).click();
+//		System.out.println("Link Test Pass");
 		}
 	}
