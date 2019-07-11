@@ -18,15 +18,15 @@ public class Test {
 		System.out.println("website opened");
 
 //		 Click on "Partial Link Text" link
-		driver.findElement(By.linkText("Link Test")).click();
-		System.out.println("Partial Link Test Pass");
-
-		// Convert element in to a string 
-		String sClass = driver.findElements(By.tagName("button")).toString();
-		System.out.println(sClass);
-
-		// Click on "Link Text" link
-		driver.findElement(By.linkText("Link Test")).click();
-		System.out.println("Link Test Pass");
+//		driver.findElement(By.linkText("Link Test")).click();
+//		System.out.println("Partial Link Test Pass");
+//
+//		// Convert element in to a string 
+//		String sClass = driver.findElements(By.tagName("button")).toString();
+//		System.out.println(sClass);
+//
+//		// Click on "Link Text" link
+//		driver.findElement(By.linkText("Link Test")).click();
+//		System.out.println("Link Test Pass");
 		}
 	}
